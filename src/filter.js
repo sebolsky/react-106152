@@ -3,8 +3,8 @@ export const movieFilter = (movies, word) => {
 
   movies.forEach((movie) => {
     if (
-      movie.title.toLowerCase().includes(word.toLowerCase()) ||
-      movie.director.toLowerCase().includes(word.toLowerCase()) ||
+      movie.gatunek.toLowerCase().includes(word.toLowerCase()) ||
+      movie.klasyfikacja.toLowerCase().includes(word.toLowerCase()) ||
       checkActors(movie.actors, word)
     ) {
       filteredMovies.push(movie);

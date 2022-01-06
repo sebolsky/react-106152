@@ -11,12 +11,12 @@ import { movieFilter } from "../filter.js";
 
 const allMovies = [
   {
-    title: "Szklana pułapka",
-    director: "John McTiern",
-    description:
-      "Film powstał na podstawie powieści Nothing Lasts Forever Rodericka Thorpa. Film przedstawia historię nowojorskiego detektywa Johna McClane, który musi odbić wieżowiec japońskiej korporacji z rąk terrorystów.",
+    gatunek: "Tygrys Syberyjski",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Film powstał na podstawie powieści Nothing Lasts Forever Rodericka Thorpa. Film przedstawia historię nowojorskiego detektywa Johna McClane, który musi odbić wieżowiec japońskiej korporacji z rąk terrorystów.",
     imageurl:
-      "https://d-pt.ppstatic.pl/kadry/k/r/1/92/cc/561fa1c0b1593_o,size,969x565,q,71,h,3d262e.jpg",
+      "https://bi.im-g.pl/im/8d/96/13/z20537997IBG,Mlody-tygrys-syberyjski-na-wybiegu.jpg",
     actors: [
       "Bruce Willis",
       "Alan Rickman",
@@ -25,48 +25,48 @@ const allMovies = [
     ],
   },
   {
-    title: "Avatar",
-    director: "James Cameroon",
-    description:
-      "Główny bohater, Jake Sully to sparaliżowany od pasa w dół weteran. Po śmierci swego brata bliźniaka, Toma, i ze względu na takie samo DNA, otrzymuje propozycję pracy w korporacji RDA w ramach programu Avatar.",
+    gatunek: "Słoń afrykański",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Główny bohater, Jake Sully to sparaliżowany od pasa w dół weteran. Po śmierci swego brata bliźniaka, Toma, i ze względu na takie samo DNA, otrzymuje propozycję pracy w korporacji RDA w ramach programu Avatar.",
     imageurl:
-      "https://pm1.narvii.com/6470/59c30cbf64df95df9daec80a4b13521c1e217077_00.jpg",
+      "https://images.hive.blog/0x0/https://steemitimages.com/DQmWmKxUg81CEz1xTwrtei2K51kvwUoGsmjJsfUaYu7259e/Savannah-Elephant-African-Bush-Elephant-Africa-114543.jpg",
     actors: ["Sam Worthington", "Zoë Saldaña", "Sigourney Weaver"],
   },
   {
-    title: "Chłopaki nie płaczą",
-    director: "Olaf Lubaszenko",
-    description:
-      "Głównym bohaterem filmu jest ambitny młody skrzypek Jakub Brenner (Maciej Stuhr). Mimo problemów na uczelni i porzucenia przez dziewczynę Weronikę, usiłuje pomóc swojemu nieśmiałemu przyjacielowi, Oskarowi.",
+    gatunek: "Żarłacz biały (rekin ludojad)",
+    klasyfikacja: "Ryba",
+    // description:
+    //   "Głównym bohaterem filmu jest ambitny młody skrzypek Jakub Brenner (Maciej Stuhr). Mimo problemów na uczelni i porzucenia przez dziewczynę Weronikę, usiłuje pomóc swojemu nieśmiałemu przyjacielowi, Oskarowi.",
     imageurl:
-      "https://lelum.pl/wp-content/uploads/2020/05/micha%C5%82-milowicz.jpg",
+      "https://i.gremicdn.pl/image/free/a12787cdc05ab77aec7707634c26db3e/?t=resize:fill:1200:716,enlarge:1",
     actors: ["Cezary Pazura", "Maciej Stuhr", "Michał Milowicz", "Anna Mucha"],
   },
   {
-    title: "Pętla",
-    director: "Patryk Vega",
-    description:
-      "Losy polskiego policjanta przypadkowo łączą się z ukraińskimi braćmi. Wspólnie przejmują dom publiczny, w którym umieszczają kamery, a następnie gromadzą materiały do szantażu.",
+    gatunek: "Rekin młot",
+    klasyfikacja: "Ryba",
+    // description:
+    //   "Losy polskiego policjanta przypadkowo łączą się z ukraińskimi braćmi. Wspólnie przejmują dom publiczny, w którym umieszczają kamery, a następnie gromadzą materiały do szantażu.",
     imageurl:
-      "https://img.csfd.cz/files/images/film/photos/164/747/164747964_61fe79.jpg?w370h370",
+      "https://zwierzetainformacje.pl/wp-content/uploads/2016/08/rekin-m%C5%82ot-563x353.jpg",
     actors: ["Antoni Królikowski", "Katarzyna Warnke", "Piotr Stramowski"],
   },
   {
-    title: "Mechaniczna Pomarańcza",
-    director: "Stanley Kubrick",
-    description:
-      "Akcja filmu rozgrywa się w nieokreślonym czasie w Wielkiej Brytanii. Obraz opowiada historię Alexa DeLarge, inteligentnego człowieka z dobrej rodziny, miłośnika muzyki poważnej, a zarazem przestępcy, gwałciciela i zbrodniarza.",
+    gatunek: "Pingwiny",
+    klasyfikacja: "Ptaki",
+    // description:
+    //   "Akcja filmu rozgrywa się w nieokreślonym czasie w Wielkiej Brytanii. Obraz opowiada historię Alexa DeLarge, inteligentnego człowieka z dobrej rodziny, miłośnika muzyki poważnej, a zarazem przestępcy, gwałciciela i zbrodniarza.",
     imageurl:
-      "https://i2.wp.com/oldcamera.pl/wp-content/uploads/2020/07/mechaniczna-pomarancza1.jpg?fit=900%2C508&ssl=1",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Emperor_penguin.jpg",
     actors: ["Malcolm McDowell", "Warren Clarke", "Michael Bates"],
   },
   {
-    title: "Interstellar",
-    director: "Chrostopher Nolan",
-    description:
-      "Fabuła produkcji skupiona jest wokół grupy naukowców NASA, którzy odkrywają tunel czasoprzestrzenny pozwalający na odbycie podróży międzygwiezdnej.",
+    gatunek: "Kangur",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Fabuła produkcji skupiona jest wokół grupy naukowców NASA, którzy odkrywają tunel czasoprzestrzenny pozwalający na odbycie podróży międzygwiezdnej.",
     imageurl:
-      "https://i0.wp.com/www.cinefilos.it/wp-content/uploads/2018/08/interstellar.jpg?fit=1920%2C1037&ssl=1",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Eastern_Grey_Kangaroo_Young_Waiting.JPG/1024px-Eastern_Grey_Kangaroo_Young_Waiting.JPG",
     actors: [
       "Matthew McConaughey",
       "Anne Hathaway",
@@ -75,55 +75,55 @@ const allMovies = [
     ],
   },
   {
-    title: "Pewnego razu w Hollywood",
-    director: "Quentin Tarantino",
-    description:
-      "Film opowiada historię aktora Ricka Daltona oraz jego dublera Cliffa Bootha. Dalton jest gwiazdą telewizyjną, jednak jego kariera aktorska staje na skraju załamania. Obawiając się jej końca podejmuje on desperackie kroki.",
-    imageurl: "https://i.ytimg.com/vi/RtccvkeImfo/maxresdefault.jpg",
+    gatunek: "Żyrafa",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Film opowiada historię aktora Ricka Daltona oraz jego dublera Cliffa Bootha. Dalton jest gwiazdą telewizyjną, jednak jego kariera aktorska staje na skraju załamania. Obawiając się jej końca podejmuje on desperackie kroki.",
+    imageurl: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rothschilds_giraffe_at_paignton_arp.jpg",
     actors: ["Leonardo DiCaprio", "Brad Pitt", "Al Pacino"],
   },
   {
-    title: "Kevin sam w domu",
-    director: "Chris Columbus",
-    description:
-      "Z powodu porannego pośpiechu wywołanego możliwością spóźnienia się na samolot do Francji rodzina poleciała bez Kevina, który został sam w domu. Tymczasem domem, w którym mieszka chłopiec, zaczynają interesować się włamywacze.",
+    gatunek: "Goryl",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Z powodu porannego pośpiechu wywołanego możliwością spóźnienia się na samolot do Francji rodzina poleciała bez Kevina, który został sam w domu. Tymczasem domem, w którym mieszka chłopiec, zaczynają interesować się włamywacze.",
     imageurl:
-      "https://webprojektor.pl/wp-content/uploads/2019/12/Kevin-sam-w-domu.jpg",
+      "https://fajnepodroze.pl/wp-content/uploads/2020/03/goryl.jpg",
     actors: ["Macaulay Culkin", "Joe Pesci", "Daniel Stern"],
   },
   {
-    title: "Szybcy i wściekli",
-    director: "Rob Cohen",
-    description:
-      "Opowieść o gangach, które rywalizują o prymat, ścigając się na ulicach miast przerobionymi samochodami, najczęściej produkcji japońskiej. Są to wyścigi o duże pieniądze. Gangi podejrzewane są także o serię porwań ciężarówek.",
+    gatunek: "Wilk Szary",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Opowieść o gangach, które rywalizują o prymat, ścigając się na ulicach miast przerobionymi samochodami, najczęściej produkcji japońskiej. Są to wyścigi o duże pieniądze. Gangi podejrzewane są także o serię porwań ciężarówek.",
     imageurl:
-      "https://film.pinbook.pl/storage/article/9OWRxN4CJwqCIDqoTpXUU0LLKh154v8OpFWyA9sL.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Canis_lupus_265b.jpg/240px-Canis_lupus_265b.jpg",
     actors: ["Vin Diesel", "Paul Walker", "Jordana Brewster"],
   },
   {
-    title: "Kill Bill",
-    director: "Quentin Tarantino",
-    description:
-      "Beatrix Kiddo (przez większość pierwszej części nazywana Panną Młodą lub Czarną Mambą), szuka krwawej zemsty na Billu oraz członkach Plutonu Śmiercionośnych Żmij – grupy wyszkolonych morderców, do której wspólnie z Billem kiedyś należała.",
-    imageurl: "https://wallpapercave.com/wp/wp1817617.jpg",
+    gatunek: "Krokodyl różańcowy",
+    klasyfikacja: "Gad",
+    // description:
+    //   "Beatrix Kiddo (przez większość pierwszej części nazywana Panną Młodą lub Czarną Mambą), szuka krwawej zemsty na Billu oraz członkach Plutonu Śmiercionośnych Żmij – grupy wyszkolonych morderców, do której wspólnie z Billem kiedyś należała.",
+    imageurl: "https://naukawpolsce.pl/sites/default/files/styles/strona_glowna_slider_750x420/public/201710/15229565_15229442.jpg?itok=JsrFnMEx",
     actors: ["Uma Thurman", "David Carradine", "Lucy Liu"],
   },
   {
-    title: "Gnijąca panna młoda",
-    director: "Tim Burton",
-    description:
-      "Victor Van Dort szykuje się do zaaranżowanego przez rodziców ślubu z Victorią Everglot. Swoją przyszłą żonę widzi pierwszy raz dopiero przed próbą generalną ceremonii ślubnej. ",
+    gatunek: "Lew afrykański",
+    klasyfikacja: "Ssak",
+    // description:
+    //   "Victor Van Dort szykuje się do zaaranżowanego przez rodziców ślubu z Victorią Everglot. Swoją przyszłą żonę widzi pierwszy raz dopiero przed próbą generalną ceremonii ślubnej. ",
     imageurl:
-      "https://d-tm.ppstatic.pl/kadry/66/36/1ed84ae98f69d2d18668540c46bf.1000.jpg",
+      "https://zwierzetainformacje.pl/wp-content/uploads/2016/08/lew-afryka%C5%84ski-e1470653058578.jpg",
     actors: ["Helena Bonham Carter", "Johhny Deep"],
   },
   {
-    title: "Helloween",
-    director: "	John Carpenter",
-    description:
-      "Po piętnastu latach Michael Myers, przez Loomisa określony jako nic więcej niż czyste zło, ucieka z zakładu, kradnie samochód i powraca do Haddonfield. Zbliża się halloween. Loomis wie, dokąd podąża psychopata.",
+    gatunek: "Waran z Komodo",
+    klasyfikacja: "Gad",
+    // description:
+    //   "Po piętnastu latach Michael Myers, przez Loomisa określony jako nic więcej niż czyste zło, ucieka z zakładu, kradnie samochód i powraca do Haddonfield. Zbliża się halloween. Loomis wie, dokąd podąża psychopata.",
     imageurl:
-      "https://www.screengeek.net/wp-content/uploads/2019/07/halloween-movie-1.jpg",
+      "https://www.national-geographic.pl/media/cache/slider_big/uploads/media/default/0014/36/waran-z-komodo.jpeg",
     actors: [
       "Jamie Lee Curtis",
       "Donald Pleasence",
@@ -179,7 +179,7 @@ const MainPage = () => {
                   <Catalog movies={movies2} />
                 ) : (
                   <div className="notfound">
-                    <h4>Brak filmów spełniających krytaria</h4>
+                    <h4>Niestety w naszym zoo nie znajdziemy tych gatunków :(</h4>
                   </div>
                 )}
               </>

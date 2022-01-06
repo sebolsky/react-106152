@@ -16,20 +16,20 @@ const FilmCard = ({ movie }) => {
     <Card className="film-card">
       <Card.Img
         variant="top"
-        src={movie.poster}
+        src={movie.imageurl}
         alt="image"
         className="movie-img"
       />
       <Card.Body>
         <Card.Title style={{ fontWeight: "bold", color: "darkblue" }}>
-          {movie.title}
+          {movie.gatunek}
         </Card.Title>
         <Card.Text style={{ fontSize: 14, color: "gray", marginTop: -5 }}>
-          Reżyser: {movie.director}
+          Klasyfikacja: {movie.klasyfikacja}
         </Card.Text>
         <Card.Text>{movie.short}</Card.Text>
         <Link to={`/movie/${movie.id}`}>
-          <Button variant="primary">Szczegóły filmu</Button>
+        <Button variant="warning">Cechy osobnika</Button>
         </Link>
       </Card.Body>
     </Card>

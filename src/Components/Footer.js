@@ -7,7 +7,7 @@ const Footer = () => {
       <Container>
         <Row>
           <Col>
-            <h4>Wyszukiwarka filmów</h4>
+            <h4>Łódzkie Zoo</h4>
           </Col>
           <Col>
             Aplikacja gr VI przedmiotu Wykorzystanaie wzorców technologiach

@@ -16,11 +16,11 @@ const Bar = ({ getUserWord }) => {
     <div className="bar mt-4">
       <InputGroup className="mb-3">
         <FormControl
-          placeholder="Proszę podać tytuł filmu lub nazwisko reżysera bądź aktora"
+          placeholder="Proszę podać gatunek którego szukamy"
           value={word}
           onChange={userTypedWord}
         />
-        <Button variant="outline-primary" style={{ width: "150px" }} onClick={userClickedButton}>
+        <Button variant="warning" style={{ width: "150px" }} onClick={userClickedButton}>
           Szukaj
         </Button>
       </InputGroup>
