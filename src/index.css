@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.header {
+  background: rgb(20, 70, 103);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 70, 103, 1) 0%,
+    rgba(21, 88, 149, 1) 42%,
+    rgba(56, 156, 215, 1) 85%
+  );
+  padding: 50px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.header h1 {
+  font-size: 54px;
+  font-weight: bold;
+}
+
+.header p {
+  font-size: 26px;
+}
+
+.catalog-title {
+  color: #1b63a0;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.film-card {
+  width: 360px;
+  min-width: 360px;
+  margin-bottom: 30px;
+  box-shadow: 8px 8px 24px 0px rgba(27, 99, 160, 1);
+}
+
+.footer {
+  background-color: #145286;
+  color: #fff;
+  padding: 50px;
+  margin-top: 40px;
+}
+
+.movie-img {
+  width: 358px;
+  height: 500px;
+}
+
+.loader {
+  min-height: 450px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader__container {
+  text-align: center;
+}
+
+.loader__container h6 {
+  margin-top: 30px;
+}
+
+.notfound {
+  min-height: 450px;
+  height: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
