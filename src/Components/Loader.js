@@ -8,7 +8,7 @@ const Loader = () => {
       <div className="loader">
         <div className="loader__container">
           <img src={Audio} alt="Loader" />
-          <h6>Trwa ładowanie filmów ...</h6>
+          <h6>Trwa wczytywanie strony ... </h6>
         </div>
       </div>
     </Container>

@@ -13,8 +13,8 @@ const allMovies = [
   {
     gatunek: "Tygrys Syberyjski",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Film powstał na podstawie powieści Nothing Lasts Forever Rodericka Thorpa. Film przedstawia historię nowojorskiego detektywa Johna McClane, który musi odbić wieżowiec japońskiej korporacji z rąk terrorystów.",
+    description:
+      "największy z podgatunków tygrysa azjatyckiego, drapieżnego ssaka z rodziny kotowatych. Porównywalne rozmiary osiąga jedynie tygrys bengalski (P. t. tigris). Zbliżony wielkością tygrys kaspijski (P. t. virgata) uznawany jest już za gatunek wymarły. Tygrys syberyjski to podgatunek o niskim poziomie zmienności genetycznej",
     imageurl:
       "https://bi.im-g.pl/im/8d/96/13/z20537997IBG,Mlody-tygrys-syberyjski-na-wybiegu.jpg",
     actors: [
@@ -27,8 +27,8 @@ const allMovies = [
   {
     gatunek: "Słoń afrykański",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Główny bohater, Jake Sully to sparaliżowany od pasa w dół weteran. Po śmierci swego brata bliźniaka, Toma, i ze względu na takie samo DNA, otrzymuje propozycję pracy w korporacji RDA w ramach programu Avatar.",
+    description:
+      " gatunek ssaka z rodziny słoniowatych (Elephantidae), największe współcześnie żyjące zwierzę lądowe. Wcześniej uznawany za jeden gatunek wraz ze słoniem leśnym (Loxodonta cyclotis). Zwierzę stadne, zamieszkuje afrykańską sawannę, lasy i stepy. W starożytności wykorzystywane jako zwierzęta bojowe.",
     imageurl:
       "https://images.hive.blog/0x0/https://steemitimages.com/DQmWmKxUg81CEz1xTwrtei2K51kvwUoGsmjJsfUaYu7259e/Savannah-Elephant-African-Bush-Elephant-Africa-114543.jpg",
     actors: ["Sam Worthington", "Zoë Saldaña", "Sigourney Weaver"],
@@ -36,8 +36,8 @@ const allMovies = [
   {
     gatunek: "Żarłacz biały (rekin ludojad)",
     klasyfikacja: "Ryba",
-    // description:
-    //   "Głównym bohaterem filmu jest ambitny młody skrzypek Jakub Brenner (Maciej Stuhr). Mimo problemów na uczelni i porzucenia przez dziewczynę Weronikę, usiłuje pomóc swojemu nieśmiałemu przyjacielowi, Oskarowi.",
+    description:
+      " gatunek ryby chrzęstnoszkieletowej z rodziny lamnowatych (Lamnidae), jedyny żyjący współcześnie przedstawiciel rodzaju Carcharodon, jeden z największych rekinów drapieżnych. Poławiany komercyjnie i sportowo.",
     imageurl:
       "https://i.gremicdn.pl/image/free/a12787cdc05ab77aec7707634c26db3e/?t=resize:fill:1200:716,enlarge:1",
     actors: ["Cezary Pazura", "Maciej Stuhr", "Michał Milowicz", "Anna Mucha"],
@@ -45,8 +45,8 @@ const allMovies = [
   {
     gatunek: "Rekin młot",
     klasyfikacja: "Ryba",
-    // description:
-    //   "Losy polskiego policjanta przypadkowo łączą się z ukraińskimi braćmi. Wspólnie przejmują dom publiczny, w którym umieszczają kamery, a następnie gromadzą materiały do szantażu.",
+    description:
+      "gatunek morskiej ryby żarłaczokształtnej z rodziny młotowatych (Sphyrnidae). Posiada charakterystyczny kształt pyska przypominający młot, spłaszczony i poprzecznie rozciągnięty, bez wcięcia na środku przedniej krawędzi (stąd angielski epitet smooth – gładki).",
     imageurl:
       "https://zwierzetainformacje.pl/wp-content/uploads/2016/08/rekin-m%C5%82ot-563x353.jpg",
     actors: ["Antoni Królikowski", "Katarzyna Warnke", "Piotr Stramowski"],
@@ -54,8 +54,8 @@ const allMovies = [
   {
     gatunek: "Pingwiny",
     klasyfikacja: "Ptaki",
-    // description:
-    //   "Akcja filmu rozgrywa się w nieokreślonym czasie w Wielkiej Brytanii. Obraz opowiada historię Alexa DeLarge, inteligentnego człowieka z dobrej rodziny, miłośnika muzyki poważnej, a zarazem przestępcy, gwałciciela i zbrodniarza.",
+    description:
+      " rząd (Sphenisciformes) oraz rodzina (Spheniscidae) ptaków z infragromady ptaków neognatycznych (Neognathae).",
     imageurl:
       "https://upload.wikimedia.org/wikipedia/commons/8/8d/Emperor_penguin.jpg",
     actors: ["Malcolm McDowell", "Warren Clarke", "Michael Bates"],
@@ -63,8 +63,8 @@ const allMovies = [
   {
     gatunek: "Kangur",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Fabuła produkcji skupiona jest wokół grupy naukowców NASA, którzy odkrywają tunel czasoprzestrzenny pozwalający na odbycie podróży międzygwiezdnej.",
+    description:
+      " rodzaj ssaka z podrodziny kangurów (Macropodinae) w rodzinie kangurowatych (Macropodidae).",
     imageurl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Eastern_Grey_Kangaroo_Young_Waiting.JPG/1024px-Eastern_Grey_Kangaroo_Young_Waiting.JPG",
     actors: [
@@ -77,16 +77,16 @@ const allMovies = [
   {
     gatunek: "Żyrafa",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Film opowiada historię aktora Ricka Daltona oraz jego dublera Cliffa Bootha. Dalton jest gwiazdą telewizyjną, jednak jego kariera aktorska staje na skraju załamania. Obawiając się jej końca podejmuje on desperackie kroki.",
+    description:
+      "afrykański ssak parzystokopytny z rodziny żyrafowatych, najwyższe zwierzę lądowe i największy z przeżuwaczy żyjących w czasach nowożytnych.",
     imageurl: "https://upload.wikimedia.org/wikipedia/commons/d/d0/Rothschilds_giraffe_at_paignton_arp.jpg",
     actors: ["Leonardo DiCaprio", "Brad Pitt", "Al Pacino"],
   },
   {
     gatunek: "Goryl",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Z powodu porannego pośpiechu wywołanego możliwością spóźnienia się na samolot do Francji rodzina poleciała bez Kevina, który został sam w domu. Tymczasem domem, w którym mieszka chłopiec, zaczynają interesować się włamywacze.",
+    description:
+      " rodzaj ssaka naczelnego z podrodziny Homininae w rodzinie człowiekowatych (Hominidae). Preferuje naziemny tryb życia, jest zwierzęciem roślinożernym, zamieszkuje lasy tropikalne w Afryce. Dzielone są na dwa gatunki i według nadal trwającej debaty (2007) do czterech lub pięciu podgatunków.",
     imageurl:
       "https://fajnepodroze.pl/wp-content/uploads/2020/03/goryl.jpg",
     actors: ["Macaulay Culkin", "Joe Pesci", "Daniel Stern"],
@@ -94,8 +94,8 @@ const allMovies = [
   {
     gatunek: "Wilk Szary",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Opowieść o gangach, które rywalizują o prymat, ścigając się na ulicach miast przerobionymi samochodami, najczęściej produkcji japońskiej. Są to wyścigi o duże pieniądze. Gangi podejrzewane są także o serię porwań ciężarówek.",
+    description:
+      " gatunek drapieżnego ssaka z rodziny psowatych (Canidae), zamieszkującego lasy, równiny, tereny bagienne oraz góry Eurazji i Ameryki Północnej. Gatunek o skłonnościach terytorialnych. Zwykle terytorium zajmowane przez watahę to 100–300 km²",
     imageurl:
       "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Canis_lupus_265b.jpg/240px-Canis_lupus_265b.jpg",
     actors: ["Vin Diesel", "Paul Walker", "Jordana Brewster"],
@@ -103,16 +103,16 @@ const allMovies = [
   {
     gatunek: "Krokodyl różańcowy",
     klasyfikacja: "Gad",
-    // description:
-    //   "Beatrix Kiddo (przez większość pierwszej części nazywana Panną Młodą lub Czarną Mambą), szuka krwawej zemsty na Billu oraz członkach Plutonu Śmiercionośnych Żmij – grupy wyszkolonych morderców, do której wspólnie z Billem kiedyś należała.",
-    imageurl: "https://naukawpolsce.pl/sites/default/files/styles/strona_glowna_slider_750x420/public/201710/15229565_15229442.jpg?itok=JsrFnMEx",
+    description:
+      " gatunek gada z rodziny krokodyli właściwych (krokodylowatych). Jest największym współcześnie żyjącym gadem, a także największym drapieżnikiem na lądzie i rzekach całego świata.",
+    imageurl: "https://cdnnpl1.img.sputniknews.com/img/07e5/02/03/13769722_157:0:1237:1080_1920x0_80_0_0_733afd1656d1086d0336aca5ee9d4b72.jpg",
     actors: ["Uma Thurman", "David Carradine", "Lucy Liu"],
   },
   {
     gatunek: "Lew afrykański",
     klasyfikacja: "Ssak",
-    // description:
-    //   "Victor Van Dort szykuje się do zaaranżowanego przez rodziców ślubu z Victorią Everglot. Swoją przyszłą żonę widzi pierwszy raz dopiero przed próbą generalną ceremonii ślubnej. ",
+    description:
+      "gatunek mięsożernego ssaka lądowego z podrodziny panter (Pantherinae) w rodzinie kotowatych (Felidae), drugi po tygrysie – co do wielkości – wśród pięciu wielkich kotów.",
     imageurl:
       "https://zwierzetainformacje.pl/wp-content/uploads/2016/08/lew-afryka%C5%84ski-e1470653058578.jpg",
     actors: ["Helena Bonham Carter", "Johhny Deep"],
@@ -120,8 +120,8 @@ const allMovies = [
   {
     gatunek: "Waran z Komodo",
     klasyfikacja: "Gad",
-    // description:
-    //   "Po piętnastu latach Michael Myers, przez Loomisa określony jako nic więcej niż czyste zło, ucieka z zakładu, kradnie samochód i powraca do Haddonfield. Zbliża się halloween. Loomis wie, dokąd podąża psychopata.",
+    description:
+      "gatunek gada z rodziny waranów nazywany smokiem z Komodo. To największa współcześnie żyjąca jaszczurka. Odkryta w 1910 roku. Aby ją chronić, założono w 1980 r. Park Narodowy Komodo.",
     imageurl:
       "https://www.national-geographic.pl/media/cache/slider_big/uploads/media/default/0014/36/waran-z-komodo.jpeg",
     actors: [

@@ -27,7 +27,7 @@ const FilmCard = ({ movie }) => {
         <Card.Text style={{ fontSize: 14, color: "gray", marginTop: -5 }}>
           Klasyfikacja: {movie.klasyfikacja}
         </Card.Text>
-        <Card.Text>{movie.short}</Card.Text>
+        <Card.Text>{movie.description}</Card.Text>
         <Link to={`/movie/${movie.id}`}>
         <Button variant="warning">Cechy osobnika</Button>
         </Link>
